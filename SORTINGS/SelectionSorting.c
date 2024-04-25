@@ -7,7 +7,7 @@ void selectionSort(int* array, int n){
         for(int j=i+1; j<n; j++){
             if(array[min_idx]>array[j]){
                 compare_count++;
-                min_idx = array[j];
+                min_idx = j;
             }
         }if(min_idx!=i){
             swap_count++;
