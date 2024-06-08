@@ -8,6 +8,8 @@ int getPivot(int* array, int l, int h){
     while(i<j){
          while(array[i]<=array[p]){
             compare_count++;
+
+
             i++;
         }while(array[j]>array[p]){
             compare_count++;
