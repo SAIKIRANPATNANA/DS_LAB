@@ -3,6 +3,7 @@
         "CLL.C": "cpp",
         "DFS_BFS.C": "cpp",
         "tuple": "c",
-        "bst": "c"
+        "bst": "c",
+        "dfs_bfs": "c"
     }
 }
